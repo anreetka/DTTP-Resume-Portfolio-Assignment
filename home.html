@@ -233,40 +233,42 @@
             <div class="ui two column very relaxed stackable grid">                
                 <div class="content">
                     <div class="ui inverted segment">
-                        <div>
+                        <form action="https://api.web3forms.com/submit" method="POST">
                             <div class="contact-header">
                                 <h2>Contact Us</h2>
                             </div>
                             <h3>Fill Out this form below:</h3>
                             <div class="contact-content">
                                 <div class="ui inverted form">
+                                    <input type="hidden" name="apikey" value="5230a1f9-8ba3-4fa6-bbeb-86ce3c039809">
                                   <div class="two fields">
                                     <div class="field">
                                       <label><p>Full Name</p></label>
-                                      <input placeholder="Full Name" type="text" id="name">
+                                      <input placeholder="Full Name" type="text" id="name" name="name" required>
                                     </div>
                                     <div class="field">
                                       <label>Email</label>
-                                      <input placeholder="Email Address" type="email" id="email">
+                                      <input placeholder="Email Address" id="email" name="email" type="email" id="email" required>
                                     </div>
                                   </div>
                                   <div class="one field">
                                     <div class="field">
                                         <label>Headline</label>
-                                    <input placeholder="Brief headline explaining why you are reaching out" type="text">
+                                    <input placeholder="Brief headline explaining why you are reaching out" id="headline" name="headline"  type="text" required>
                                     </div>
                                   </div>
                                   <div class="one field">
                                     <div class="field">
                                         <label>Message</label>
-                                    <textarea placeholder="Enter your message below" type="text"></textarea>
+                                    <textarea placeholder="Enter your message below" id="message" name="message" type="text" required></textarea>
                                     </div>
                                   </div>
-                                  <div class="ui submit button" id="final-btn">Submit</div>
+                                  <input type="Submit" value="Submit" class="ui button" id="final-btn">
+                                  <!-- <div class="ui submit button" id="final-btn">Submit</div> -->
                                 </div>
                               </div>
     
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>                       

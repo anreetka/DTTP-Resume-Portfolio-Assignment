@@ -13,8 +13,8 @@ body{
 }
 
 #img-1{
-    width: 80%;
-    margin-left:15%;
+    width: 70%;
+    margin-left:10%;
     margin-top: 10%;
     margin-bottom: 2%;
 }
@@ -44,7 +44,7 @@ h3{
 }
 
 .primary-container{
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 4%;
     width: 35%;
 }

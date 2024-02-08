@@ -6,12 +6,10 @@ body{
     /* color: rgb(99, 96, 96); */
     color: white;
     background-color: black;
-    margin-left: 5%;
-    margin-right: 5%
 }
 
 .item{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #img-1{

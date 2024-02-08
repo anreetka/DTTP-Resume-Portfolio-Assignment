@@ -39,6 +39,10 @@ h3{
     align-self: center;
 }
 
+.header-content>button>a{
+    color: grey;
+}
+
 .primary-container{
     margin-left: 5rem;
     margin-top: 4%;
@@ -59,6 +63,17 @@ h3{
     margin-top: 5%;
     width: 20%;
     margin-left: 5%;
+}
+
+.header-btn{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.header-btn>button>a>i{
+    font-size: 2rem;
+    padding-bottom: 0px;
+    padding-top: 5px;
 }
 
 .projects-header>h2{
@@ -178,5 +193,53 @@ h3{
     margin: 20px;
     margin-left: 2%;
 }
+
+.contact-header{
+    width: 100%;
+}
+
+.contact-header>h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.content{
+    width: 60%;
+    margin-left: 20%;
+    background-color: antiquewhite;
+}
+
+#final-btn{
+    width: 15%;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.contact-content{
+    width: 60%;
+    margin-left: 21%;
+    margin-top: 2.5%;
+}
+
+.education-experience{
+    margin-left: 6%;
+}
+
+.header>p{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.meta>p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.description>p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
 
 

@@ -1,3 +1,4 @@
-Resume Portfolio
+<h1>Resume Portfolio</h1>
 
-Tech Stack Used: HTML, CSS, JavaScript, Semantic UI Library and Vercel for deployment
+
+<b>Tech Stack Used:<b> HTML, CSS, JavaScript, Semantic UI Library and Vercel for deployment

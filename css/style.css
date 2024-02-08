@@ -97,8 +97,8 @@ h3{
 
 
 #hackville-img, #newhacks-img{
-    width: 375px;
-    height: 400px;
+    width: 300px;
+    height: 325px;
     border-radius: 0.5rem;
     margin-top: 5px;
     padding: 5px;
@@ -106,9 +106,8 @@ h3{
 
 .card{
     border-radius: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
-    /* border-style: 2px solid white; */
     border-width: 1px; /* Specify the width of the border */
     border-style: solid; /* Specify the style of the border */
     border-color: white;
@@ -177,7 +176,7 @@ h3{
 }
 
 .tech-expertise{
-    margin: 2%;
+    margin: 2.5%;
     margin-top: 5%;
 }
 

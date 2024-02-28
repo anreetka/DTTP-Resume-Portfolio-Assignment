@@ -1,86 +1,117 @@
-nav{
-    margin-bottom: 20px;
-}
-
-body{
-    /* color: rgb(99, 96, 96); */
+body {
     color: white;
     background-color: black;
 }
 
-.item{
-    font-size: 1.2rem;
+nav {
+    background-color: #333;
+    position:fixed;
+    width: 100%;
+    font-size: 20px;
+    height:auto;
+    z-index: 1000; 
 }
+  
+  .my-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
 
-#img-1{
+  .nav-links li a:hover {
+    color: #cbc46e;
+  }
+
+#img-1 {
     width: 70%;
-    margin-left:10%;
+    margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 2%;
 }
 
-h2, h3{
-    font-size:3rem;
+h2,
+h3 {
+    font-size: 3rem;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 2px;
 }
 
-h3{
+h3 {
     margin-top: 0px;
     font-size: 2rem;
     margin-left: -2%;
 }
 
-.header-content{
+.header-content {
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 0px;
     margin-top: 2%;
     align-self: center;
-    width:50%;
+    width: 50%;
 }
 
-.header-content>button>a{
+.header-content>button>a {
     color: grey;
 }
 
-.primary-container{
+.primary-container {
     margin-left: 5%;
     margin-top: 4%;
     width: 35%;
 }
 
-#header-content-image{
+#header-content-image {
     width: 4%;
 }
 
-#header-resume-btn{
+#header-resume-btn {
     font-size: 1rem;
     margin-top: 5%;
     width: 20%;
 }
 
-#header-outreach-btn{
+#header-outreach-btn {
     font-size: 1rem;
     margin-top: 5%;
     width: 20%;
     margin-left: 5%;
 }
 
-.header-btn{
+.header-btn {
     margin-left: 35%;
     margin-top: 3%;
 }
 
-.header-btn>button>a>i{
+.header-btn>button>a>i {
     font-size: 2rem;
     padding-bottom: 0px;
     padding-top: 5px;
 }
 
-.projects-header>h2{
-    font-size:4rem ;
+.projects-header>h2 {
+    font-size: 4rem;
     margin-top: 5%;
     margin-bottom: 1%;
     margin-left: 6%;
@@ -95,8 +126,8 @@ h3{
     padding: 20px;
 }
 
-
-#hackville-img, #newhacks-img{
+#hackville-img,
+#newhacks-img {
     width: 375px;
     height: 400px;
     border-radius: 0.5rem;
@@ -104,45 +135,47 @@ h3{
     padding: 5px;
 }
 
-.card{
+.card {
     border-radius: 0.5rem;
     font-size: 1rem;
     text-align: center;
-    border-width: 1px; /* Specify the width of the border */
-    border-style: solid; /* Specify the style of the border */
+    border-width: 1px;
+    border-style: solid;
     border-color: white;
     padding: 5px;
 }
 
-#newhacks-img{
+#newhacks-img {
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
 }
 
-#hackville-card{
+#hackville-card {
     margin-right: 9%;
 }
 
-.card-text{
+.card-text {
     padding: 15px;
     margin-top: 0px;
     padding-top: 0px;
 }
 
-.newhacks-socials-link>a, .hackville-socials-link>a{
+.newhacks-socials-link>a,
+.hackville-socials-link>a {
     margin: 10px;
     padding: 10px;
 }
 
-.hackville-socials-link{
+.hackville-socials-link {
     margin-top: 10px;
 }
 
-.newhacks-socials-link{
+.newhacks-socials-link {
     margin-top: 10px;
 }
 
-.hackville-header, .newhacks-header{
+.hackville-header,
+.newhacks-header {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -150,98 +183,364 @@ h3{
 .servicesText.card {
     height: 280px;
     cursor: pointer;
-  }
+}
 
 .servicesIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
+
 .card-title {
     text-align: center;
 }
+
 .card:hover .servicesIcon {
     color: #008000;
 }
+
 .servicesText:hover {
     border: 1px solid #008000;
 }
 
-.exp>h2{
-    font-size:3rem ;
+.exp>h2 {
+    font-size: 3rem;
     margin-top: 2%;
     margin-bottom: 1%;
     margin-left: 6%;
     text-align: left;
 }
 
-.tech-expertise{
+.tech-expertise {
     margin: 2.5%;
     margin-top: 5%;
 }
 
-#languages{
-    font-size:5rem ;
+#languages {
+    font-size: 5rem;
     margin-bottom: 3%;
     text-align: center;
 }
 
-.button-collection>button>p{
+.button-collection>button>p {
     font-size: 0.75rem;
     margin-left: 2px;
     margin-right: 2px;
 }
 
-.container{
+.container {
     margin: 20px;
 }
 
-.contact-header{
+.contact-header {
     width: 100%;
 }
 
-.contact-header>h2{
+.contact-header>h2 {
     font-size: 5rem;
     text-align: center;
 }
 
-.content{
-    width: 60%;
-    margin-left: 20%;
-    background-color: antiquewhite;
+.contact-us .ui.two.column.very.relaxed.stackable.grid {
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(205, 188, 188), rgba(181, 181, 72, 0.678));
+    width: 50%;
+    margin-left: 25%;
 }
 
-#final-btn{
+.content {
+    padding: 2%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#final-btn {
     width: 20%;
     font-size: 1rem;
     margin-top: 5%;
     margin-left: 40%;
 }
 
-.contact-content{
+.contact-content {
     width: 60%;
     margin-left: 21%;
     margin-top: 2.5%;
 }
 
-.education-experience{
+.education-experience {
     margin-left: 6%;
 }
 
-.header>p{
+.header>p {
     font-size: 1rem;
     text-align: left;
 }
 
-.meta>p{
+.meta>p {
     font-size: 1rem;
     text-align: left;
 }
 
-.description>p{
+.description>p {
     font-size: 1rem;
     text-align: left;
 }
 
+nav a.item {
+    font-size: 16px;
+    text-decoration: none;
+}
 
+nav a.item i.icon {
+    margin-right: 5px;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#experience-cards{
+    margin-left: 1%;
+}
+
+#experience-cards .card{
+    width:30%; 
+}
+
+#experience-cards2 .card{
+    width:30%; 
+}
+
+#experience-cards2{
+    margin-left:1%; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    .primary-container {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    #img-1 {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+
+    .header-btn {
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .card {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+
+    #hackville-img,
+    #newhacks-img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .contact-content {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .ui.inverted.form .field {
+        width: 100%;
+    }
+
+    #final-btn {
+        margin-left: 0;
+    }
+
+    #experience-cards .card{
+       width: 100%;
+       margin-right: 5%;
+    }
+
+    #experience-cards2 .card{
+        width: 100%;
+        margin-right: 5%;
+     }
+
+
+    .ui.two.column.very.relaxed.stackable.grid {
+        display: block;
+    }
+
+    .primary-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-btn {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-btn button {
+        margin: 0 5px;
+    }
+
+    .header-content {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #header-content-image {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    #header-resume-btn,
+    #header-outreach-btn {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 50%;
+  }
+    
+  .projects-header {
+    text-align: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .card-image {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .hackville-socials-link,
+  .newhacks-socials-link {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+
+  #languages{
+    font-size: 50px;
+    margin-top: 10%;
+  }
+
+  .proficient>h3{
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  .familiar>h3{
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .ui.two.column.very.relaxed.stackable.grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proficient,
+  .familiar {
+    margin-bottom: 20px;
+  }
+
+  .button-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+
+  .button-collection button {
+    margin: 5px;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .contact-us {
+    padding: 20px;
+    width: 100%;
+  }
+
+  #two-col-contact{
+    width: 100%;
+    margin-left: 10%;
+    margin-right:10%;
+  }
+
+  .content {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .ui.inverted.segment {
+    padding: 20px;
+  }
+  
+  .contact-header h2 {
+    font-size: 40px;
+  }
+
+  .ui.inverted.form {
+    width: 100%;
+  }
+
+  .ui.inverted.form input,
+  .ui.inverted.form textarea {
+    width: 100%;
+  }
+
+  #final-btn {
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+    
+}
 

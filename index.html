@@ -9,11 +9,13 @@
 </head>
 <body>
     <nav>
-        <div class="ui fixed white four item inverted menu">
-                <a class="active item" href="#about-me-section">About Me</a>
-                <a class="item" href="#my-hackathons">Hackathons</a>
-                <a class="item" href="#experience">Experience</a>
-                <a class="item" href="#contact-me">Contact Us</a>
+        <div class="my-container">
+          <ul class="nav-links">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#my-hackathons">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
         </div>
     </nav>
 
@@ -54,7 +56,7 @@
                 <div class="ui two column very relaxed stackable grid">
                     <div class="proficient">
                         <h3>Proficient</h3>
-                        <div class="ui inverted segment">
+                        <div class="ui inverted segment" id="container-button">
                             <div class="button-collection">
                                 <button class="ui inverted button ones" fdprocessedid="j8ueb3" id="html5"><p>HTML5</p></button>
                                 <button class="ui inverted primary button" fdprocessedid="t7wl78" id="t-css"><p>Tailwind CSS</p></button>
@@ -140,8 +142,8 @@
         <section class="education-experience" id="experience" style="margin-bottom: 3%; margin-top: 4%;">
             <h3 style="text-align: left; margin-left: 1%; font-size: 5rem; margin-bottom: 2%;">Experience</h3>
             <h3 style="text-align: left; margin-left: 1%; font-size: 3rem; margin-top:2%;">Relevant experiences</h3>
-            <div class="ui cards">
-                <div class="card" style="width:30%; margin-left: 1%;">
+            <div class="ui cards" id="experience-cards">
+                <div class="card">
                   <div class="content"style="width: 100%">
                     <div class="header"><p>[Winter 2024 Co-op]<br>Junior Research Programmer Intern</p></div>
                     <div class="meta"><p>SIRT, Research</p></div>
@@ -152,7 +154,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card" style="width: 30%">
+                <div class="card">
                   <div class="content" style="width: 100%">
                     <div class="header"><p>[Winter 2024 Tech Fellowship]<br>Diversity in Tech Talent: Web Development</p></div>
                     <div class="meta"><p>SkillHat, Co.Lab, Atila, WIL & Riipen </p></div>
@@ -165,7 +167,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card" style="width:30%;" >
+                <div class="card" >
                   <div class="content" style="width: 100%">
                     <div class="header" ><p>[Summer 2023 Internship]<br>Youth Outreach STEM Instructor</p></div>
                     <div class="meta"><p>Sheridan College, External Relations</div>
@@ -182,9 +184,9 @@
               </div>
 
               <h3 style="text-align: left; font-size: 3rem; margin-left: 1%; margin-top:2%; margin-bottom:-1.5%;">Extracurricular experiences</h3>
-              <div class="ui cards">
-                  <div class="card" style="width:30%">
-                    <div class="content"style="width: 100%">
+              <div class="ui cards" id="experience-cards2">
+                  <div class="card">
+                    <div class="content" style="width: 100%">
                       <div class="header"><p>[Fall 2023]<br>Peer Mentor Team Lead</p></div>
                       <div class="meta"><p>Sheridan College, Student Leadership</p></div>
                       <div class="description">
@@ -196,7 +198,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card" style="width: 30%">
+                  <div class="card">
                     <div class="content" style="width: 100%">
                       <div class="header"><p>[Fall 2022-Fall 2023]<br>FAST Student Ambassador</p></div>
                       <div class="meta"><p>Sheridan College, Student Recruitment </p></div>
@@ -209,7 +211,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card" style="width:30%;" >
+                  <div class="card" >
                     <div class="content" style="width: 100%">
                       <div class="header" ><p>[Winter 2023]<br>Peer Mentor</p></div>
                       <div class="meta"><p>Sheridan College, Student Leadership</div>
@@ -230,7 +232,7 @@
 
         <section class="contact-us" id="contact-me">
             <h2></h2>
-            <div class="ui two column very relaxed stackable grid">                
+            <div class="ui two column very relaxed stackable grid" id="two-col-contact">                
                 <div class="content">
                     <div class="ui inverted segment">
                         <form action="https://api.web3forms.com/submit" method="POST">
@@ -274,14 +276,6 @@
             </div>                       
  </section>
 </main>
-
-<!-- <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-        <div>
-            <h2>SOCIALS</h2>
-        </div>
-    </div>
-  </div> -->
 
 </body>
 </html>
